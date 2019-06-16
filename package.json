@@ -1,0 +1,42 @@
+{
+  "name": "@hydrogen-ui-kit/core",
+  "version": "0.0.1",
+  "description": "UI Kit for React",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasthiesen/hydrogen-ui-kit.git"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "kit"
+  ],
+  "author": "Jonas Thiesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonasthiesen/hydrogen-ui-kit/issues"
+  },
+  "homepage": "https://github.com/jonasthiesen/hydrogen-ui-kit#readme",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.2"
+  },
+  "files": ["lib/**/*"]
+}
